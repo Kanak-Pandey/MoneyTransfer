@@ -5,9 +5,9 @@ const cors=require("cors");
 const app=express();
 
 app.use(cors({
-    origin: "https://vercel-frontend-1miv-kanak-pandeys-projects.vercel.app/", // ✅ only your frontend domain
-    methods: ["GET", "POST", "PUT", "DELETE"],
-    credentials: true
+  origin: "https://vercel-frontend-1miv-kanak-pandeys-projects.vercel.app",
+  methods: ["GET", "POST", "PUT", "DELETE"],
+  credentials: true
 }));
 app.use(express.json());
 
