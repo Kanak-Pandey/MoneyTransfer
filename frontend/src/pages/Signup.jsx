@@ -32,7 +32,7 @@ export function Signup(){
                 <div className="pt-4">
                     
                     <Button onClick={async ()=>{
-                        const response=await axios.post("https://vercel-backend-djhr.vercel.app//api/v1/user/signup",{
+                        const response=await axios.post("https://vercel-backend-kanak-pandeys-projects.vercel.app/api/v1/user/signup",{
                             username,
                             firstName,
                             lastName,
