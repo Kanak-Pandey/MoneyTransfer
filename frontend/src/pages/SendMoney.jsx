@@ -39,7 +39,7 @@ export function SendMoney(){
                     />
                     </div>
                     <button onClick={async ()=>{
-                        const response=await axios.post("http://localhost:3000/api/v1/accounts/transfer",{
+                        const response=await axios.post("https://moneytransfer-09mf.onrender.com/api/v1/accounts/transfer",{
                             to:id,
                             amount
                         },{
