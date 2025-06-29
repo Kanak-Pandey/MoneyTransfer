@@ -6,7 +6,9 @@ export function Users(){
     const [users,setUsers]=useState([]);
     const [filter,setFilter]=useState("");
     useEffect(()=>{
-        axios.get("https://moneytransfer-09mf.onrender.com/api/v1/user/bulk?filter="+filter)
+
+        axios.get("https://vercel-backend-djhr.vercel.app/api/v1/user/bulk?filter="+filter)
+
         .then(response=>{
             setUsers(response.data.user)
         })
