@@ -8,7 +8,6 @@ export function Users(){
     useEffect(()=>{
 
         axios.get("https://vercel-backend-kanak-pandeys-projects.vercel.app/api/v1/user/bulk?filter="+filter)
-
         .then(response=>{
             setUsers(response.data.user)
         })
