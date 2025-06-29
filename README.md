@@ -1,5 +1,5 @@
 
-# 💸 Money Transfer Web Application
+# Money Transfer Web Application
 
 A full-stack web application that allows users to sign up, log in, view other users, and securely send money to them — built using the **MERN stack**.
 
@@ -16,7 +16,7 @@ A full-stack web application that allows users to sign up, log in, view other us
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 ### Frontend
 - React.js
